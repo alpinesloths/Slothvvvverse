@@ -1,0 +1,7 @@
+{
+  "title": "VL.Snake",
+  "description": "Good ol' Snake!",
+  "author": "ravazquez",
+  "icon": "Assets/snake_icon.png",
+  "command": "VL.Snake.exe"
+}
