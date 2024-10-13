@@ -1,0 +1,7 @@
+{
+  "title": "VL.Breakout",
+  "description": "Pop some bricks!",
+  "author": "ravazquez",
+  "icon": "Assets/blockout_icon.png",
+  "command": "VL.Breakout.exe"
+}
