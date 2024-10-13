@@ -1,0 +1,7 @@
+{
+  "title": "VL.Asteroids",
+  "description": "Space is... endless...",
+  "author": "Juan Espinoza",
+  "icon": "Assets/asteroids_icon.png",
+  "command": "VL.Asteroids.exe"
+}
