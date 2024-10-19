@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="ROePdKnz5dHQGx2Sw231P4" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="HdDtq0RPIZDMEITzs8lpzn" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
   <NugetDependency Id="QbQpMvCsmVyMdO4HjOyp7Y" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
   <Patch Id="Ivial6spRCUPys8eru1Cx1">
     <Canvas Id="R5Y8bebJWfJNsoWgmGpazA" DefaultCategory="Main" CanvasType="FullCategory">
@@ -1873,7 +1873,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="AEGyh8aABotLI7p4OFhNpk" Name="Bounds" Kind="InputPin" DefaultValue="-7, -7, 2062, 1246" IsHidden="true" />
+            <Pin Id="AEGyh8aABotLI7p4OFhNpk" Name="Bounds" Kind="InputPin" DefaultValue="2041, -6, 1548, 838" IsHidden="true" />
             <Pin Id="QXzRQZkfUmgQbeUNbwNMp7" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="SCv5S12GTq6O3itZzqneHo" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="K5R3VoLGD1jPVEDIRXH1uu" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -1949,7 +1949,7 @@
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DROuMX3v6FKQBqi7kKQNPB" Comment="" Bounds="169,540,204,15" ShowValueBox="true" isIOBox="true" Value="Slothvvvverse">
+          <Pad Id="DROuMX3v6FKQBqi7kKQNPB" Comment="" Bounds="169,540,204,15" ShowValueBox="true" isIOBox="true" Value="VVVV PLAY">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
