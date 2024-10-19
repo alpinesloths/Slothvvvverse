@@ -9,23 +9,10 @@
     ".NETCoreApp,Version=v8.0/win-x64": {
       "VL.Snake/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Logging": "8.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0",
-          "SkiaSharp": "2.88.8",
-          "SkiaSharp.Svg": "1.60.0",
-          "Stride.Core": "4.2.0.2232",
-          "Stride.Core.Mathematics": "4.2.0.2232",
-          "System.Interactive": "6.0.1",
-          "System.Management": "8.0.0",
-          "System.Reactive": "6.0.0",
-          "VL.CoreLib": "2024.6.7-0181-gdf16f593e1",
-          "VL.CoreLib.Windows": "2024.6.7-0181-gdf16f593e1",
-          "VL.Skia": "2024.6.7-0181-gdf16f593e1",
-          "VL.Stride.Windows": "2024.6.7-0181-gdf16f593e1",
+          "VL.CoreLib.Windows": "2024.6.7-0196-g6a855a4938",
+          "VL.GameController.vl": "1.0.0",
+          "VL.Skia": "2024.6.7-0196-g6a855a4938",
+          "GameControllerInput": "1.0.0.0",
           "VL.App.WindowsForms": "2024.6.0.0",
           "VL.AppServices": "2024.6.0.0",
           "VL.Core.Commands.vl": "0.0.0.0",
@@ -34,8 +21,9 @@
           "VL.EditingFramework.vl": "0.0.0.0",
           "VL.Serialization.Raw.vl": "0.0.0.0",
           "VL.Skia.vl": "0.0.0.0",
-          "VL.Stride": "2024.6.0.0",
           "VL.Stride.Runtime.vl": "0.0.0.0",
+          "VL.Stride.TextureFX.vl": "0.0.0.0",
+          "VL.Stride.vl": "0.0.0.0",
           "VL.Stride.Windows.vl": "0.0.0.0",
           "VL.UI.Core": "2024.6.0.0"
         },
@@ -153,7 +141,7 @@
           "System.Reflection.Metadata": "8.0.0",
           "System.Security.Principal.Windows": "4.7.0",
           "System.Text.Encoding.CodePages": "8.0.0",
-          "System.Text.Json": "8.0.4",
+          "System.Text.Json": "8.0.5",
           "System.Threading.Tasks.Dataflow": "8.0.0"
         }
       },
@@ -242,7 +230,7 @@
           "Microsoft.Build.Framework": "17.0.0",
           "Microsoft.CodeAnalysis.Common": "4.8.0",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
-          "System.Text.Json": "8.0.4"
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll": {
@@ -308,7 +296,7 @@
       "Microsoft.Extensions.DependencyModel/8.0.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.4"
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
@@ -847,7 +835,7 @@
         "dependencies": {
           "System.IO.Pipes": "4.3.0",
           "System.Reflection.Emit": "4.7.0",
-          "System.Text.Json": "8.0.4",
+          "System.Text.Json": "8.0.5",
           "System.Threading": "4.3.0"
         },
         "runtime": {
@@ -2547,9 +2535,12 @@
         }
       },
       "System.Text.Encodings.Web/8.0.0": {},
-      "System.Text.Json/8.0.4": {
-        "dependencies": {
-          "System.Text.Encodings.Web": "8.0.0"
+      "System.Text.Json/8.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -2711,7 +2702,7 @@
           }
         }
       },
-      "VL.Core/2024.6.7-0181-gdf16f593e1": {
+      "VL.Core/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "CommunityToolkit.HighPerformance": "8.2.2",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -2733,9 +2724,9 @@
           }
         }
       },
-      "VL.Core.Commands/2024.6.7-0181-gdf16f593e1": {
+      "VL.Core.Commands/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
-          "VL.Core": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0/VL.Core.Commands.dll": {
@@ -2744,13 +2735,13 @@
           }
         }
       },
-      "VL.Core.Skia/2024.6.7-0181-gdf16f593e1": {
+      "VL.Core.Skia/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "SkiaSharp": "2.88.8",
           "SkiaSharp.Svg": "1.60.0",
           "System.Drawing.Common": "8.0.1",
           "Topten.RichTextKit": "0.4.167",
-          "VL.Core": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0/VL.Core.Skia.dll": {
@@ -2767,9 +2758,9 @@
           }
         }
       },
-      "VL.Core.Skia.Windows/2024.6.7-0181-gdf16f593e1": {
+      "VL.Core.Skia.Windows/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
-          "VL.Core.Skia": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core.Skia": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0-windows7.0/VL.Core.Skia.Windows.dll": {
@@ -2778,15 +2769,15 @@
           }
         }
       },
-      "VL.CoreLib/2024.6.7-0181-gdf16f593e1": {
+      "VL.CoreLib/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "MathNet.Numerics": "5.0.0",
           "Newtonsoft.Json": "13.0.3",
           "SixLabors.Fonts": "1.0.0-beta19",
           "System.IO.Ports": "8.0.0",
-          "System.Text.Json": "8.0.4",
-          "VL.Core": "2024.6.7-0181-gdf16f593e1",
-          "VL.Serialization.Raw": "2024.6.7-0181-gdf16f593e1"
+          "System.Text.Json": "8.0.5",
+          "VL.Core": "2024.6.7-0196-g6a855a4938",
+          "VL.Serialization.Raw": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0/VL.CoreLib.dll": {
@@ -2795,12 +2786,12 @@
           }
         }
       },
-      "VL.CoreLib.Windows/2024.6.7-0181-gdf16f593e1": {
+      "VL.CoreLib.Windows/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "AudioSwitcher.AudioApi": "4.0.0-alpha5",
           "AudioSwitcher.AudioApi.CoreAudio": "4.0.0-alpha5",
           "Ookii.Dialogs.WinForms": "4.0.0",
-          "VL.CoreLib": "2024.6.7-0181-gdf16f593e1"
+          "VL.CoreLib": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0-windows7.0/VL.CoreLib.Windows.dll": {
@@ -2809,9 +2800,9 @@
           }
         }
       },
-      "VL.Serialization.Raw/2024.6.7-0181-gdf16f593e1": {
+      "VL.Serialization.Raw/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
-          "VL.Core": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0/VL.Serialization.Raw.dll": {
@@ -2820,14 +2811,14 @@
           }
         }
       },
-      "VL.Skia/2024.6.7-0181-gdf16f593e1": {
+      "VL.Skia/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "SharpDX.Direct3D11": "4.2.0",
           "SkiaSharp.Skottie": "2.88.6",
-          "VL.Core": "2024.6.7-0181-gdf16f593e1",
-          "VL.Core.Commands": "2024.6.7-0181-gdf16f593e1",
-          "VL.Core.Skia.Windows": "2024.6.7-0181-gdf16f593e1",
-          "VL.CoreLib": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core": "2024.6.7-0196-g6a855a4938",
+          "VL.Core.Commands": "2024.6.7-0196-g6a855a4938",
+          "VL.Core.Skia.Windows": "2024.6.7-0196-g6a855a4938",
+          "VL.CoreLib": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0-windows7.0/VL.Skia.dll": {
@@ -2836,7 +2827,38 @@
           }
         }
       },
-      "VL.Stride.Runtime/2024.6.7-0181-gdf16f593e1": {
+      "VL.Stride/2024.6.7-0196-g6a855a4938": {
+        "dependencies": {
+          "VL.Stride.DefaultAssets": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride.Runtime": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride.Runtime.Nodes": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride.Windows": "2024.6.7-0196-g6a855a4938"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/VL.Stride.dll": {
+            "assemblyVersion": "2024.6.0.0",
+            "fileVersion": "2024.6.7.0"
+          }
+        }
+      },
+      "VL.Stride.DefaultAssets/2024.6.7-0196-g6a855a4938": {
+        "dependencies": {
+          "Stride.Core.Assets.CompilerApp": "4.2.0.2232",
+          "Stride.Engine": "4.2.0.2232",
+          "Stride.Navigation": "4.2.0.2232",
+          "Stride.Particles": "4.2.0.2232",
+          "Stride.Physics": "4.2.0.2232",
+          "Stride.UI": "4.2.0.2232",
+          "Stride.Video": "4.2.0.2232"
+        },
+        "runtime": {
+          "lib/net8.0/VL.Stride.DefaultAssets.dll": {
+            "assemblyVersion": "2024.6.0.0",
+            "fileVersion": "2024.6.7.0"
+          }
+        }
+      },
+      "VL.Stride.Runtime/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "Stride.Core": "4.2.0.2232",
           "Stride.Core.Assets.CompilerApp": "4.2.0.2232",
@@ -2848,10 +2870,10 @@
           "Stride.UI": "4.2.0.2232",
           "Stride.Video": "4.2.0.2232",
           "Stride.VirtualReality": "4.2.0.2232",
-          "VL.Core": "2024.6.7-0181-gdf16f593e1",
-          "VL.Core.Commands": "2024.6.7-0181-gdf16f593e1",
-          "VL.Core.Skia": "2024.6.7-0181-gdf16f593e1",
-          "VL.CoreLib": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core": "2024.6.7-0196-g6a855a4938",
+          "VL.Core.Commands": "2024.6.7-0196-g6a855a4938",
+          "VL.Core.Skia": "2024.6.7-0196-g6a855a4938",
+          "VL.CoreLib": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0/VL.Stride.Runtime.dll": {
@@ -2864,7 +2886,29 @@
           }
         }
       },
-      "VL.Stride.Windows/2024.6.7-0181-gdf16f593e1": {
+      "VL.Stride.Runtime.Nodes/2024.6.7-0196-g6a855a4938": {
+        "dependencies": {
+          "VL.Stride.Runtime": "2024.6.7-0196-g6a855a4938"
+        },
+        "runtime": {
+          "lib/net8.0/VL.Stride.Runtime.Nodes.dll": {
+            "assemblyVersion": "2024.6.0.0",
+            "fileVersion": "2024.6.7.0"
+          }
+        }
+      },
+      "VL.Stride.TextureFX/2024.6.7-0196-g6a855a4938": {
+        "dependencies": {
+          "VL.Stride": "2024.6.7-0196-g6a855a4938"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/VL.Stride.TextureFX.dll": {
+            "assemblyVersion": "2024.6.0.0",
+            "fileVersion": "2024.6.7.0"
+          }
+        }
+      },
+      "VL.Stride.Windows/2024.6.7-0196-g6a855a4938": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.8.0",
@@ -2877,8 +2921,8 @@
           "Stride.Assets": "4.2.0.2232",
           "Stride.Assets.Models": "4.2.0.2232",
           "Stride.TextureConverter": "4.2.0.2232",
-          "VL.Core.Skia": "2024.6.7-0181-gdf16f593e1",
-          "VL.Stride.Runtime": "2024.6.7-0181-gdf16f593e1"
+          "VL.Core.Skia": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride.Runtime": "2024.6.7-0196-g6a855a4938"
         },
         "runtime": {
           "lib/net8.0-windows7.0/VL.Stride.Windows.dll": {
@@ -2903,6 +2947,41 @@
           "lib/net5.0/Vortice.Vulkan.dll": {
             "assemblyVersion": "1.2.167.0",
             "fileVersion": "1.2.167.0"
+          }
+        }
+      },
+      "VL.GameController.vl/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Svg": "1.60.0",
+          "Stride.Core": "4.2.0.2232",
+          "Stride.Core.Mathematics": "4.2.0.2232",
+          "System.Interactive": "6.0.1",
+          "System.Management": "8.0.0",
+          "System.Reactive": "6.0.0",
+          "VL.CoreLib": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride.TextureFX": "2024.6.7-0196-g6a855a4938",
+          "VL.Stride.Windows": "2024.6.7-0196-g6a855a4938"
+        },
+        "runtime": {
+          "VL.GameController.vl.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GameControllerInput/1.0.0.0": {
+        "runtime": {
+          "GameControllerInput.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -2970,17 +3049,25 @@
           }
         }
       },
-      "VL.Stride/2024.6.0.0": {
-        "runtime": {
-          "VL.Stride.dll": {
-            "assemblyVersion": "2024.6.0.0",
-            "fileVersion": "2024.6.7.0"
-          }
-        }
-      },
       "VL.Stride.Runtime.vl/0.0.0.0": {
         "runtime": {
           "VL.Stride.Runtime.vl.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "VL.Stride.TextureFX.vl/0.0.0.0": {
+        "runtime": {
+          "VL.Stride.TextureFX.vl.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "VL.Stride.vl/0.0.0.0": {
+        "runtime": {
+          "VL.Stride.vl.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -3031,22 +3118,6 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
-      "VL.Stride.DefaultAssets/2024.6.0.0": {
-        "runtime": {
-          "VL.Stride.DefaultAssets.dll": {
-            "assemblyVersion": "2024.6.0.0",
-            "fileVersion": "2024.6.7.0"
-          }
-        }
-      },
-      "VL.Stride.Runtime.Nodes/2024.6.0.0": {
-        "runtime": {
-          "VL.Stride.Runtime.Nodes.dll": {
-            "assemblyVersion": "2024.6.0.0",
-            "fileVersion": "2024.6.7.0"
           }
         }
       },
@@ -4908,12 +4979,12 @@
       "path": "system.text.encodings.web/8.0.0",
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
     },
-    "System.Text.Json/8.0.4": {
+    "System.Text.Json/8.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
-      "path": "system.text.json/8.0.4",
-      "hashPath": "system.text.json.8.0.4.nupkg.sha512"
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",
@@ -5048,75 +5119,103 @@
       "path": "ultz.native.sdl/2.28.4",
       "hashPath": "ultz.native.sdl.2.28.4.nupkg.sha512"
     },
-    "VL.Core/2024.6.7-0181-gdf16f593e1": {
+    "VL.Core/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qX3F0B15UhX4MZh+yxCoP6F0yF7L+alTnmoQb2qZkjuyxfA4JNVGOwHfQ+5nqZXaT9hk0sJtTuAa9sRll7mnhA==",
-      "path": "vl.core/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.core.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-QdPOJX94pfwsAF9c21EHWeS0NR5tSMc2oLgxPk9RiFhiH9v286Q3pn6pfcX556iKRqiWr7bw9ZmghosHfDTx2A==",
+      "path": "vl.core/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.core.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Core.Commands/2024.6.7-0181-gdf16f593e1": {
+    "VL.Core.Commands/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cWwJ7oZbF+JJs1oynGusWCkbBWfkyyhyKFDMvP6K3a81QrXBQfl+4m2hSDjJpopNGLa6JypZAY+vyngSH1aYyg==",
-      "path": "vl.core.commands/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.core.commands.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-GxNCTU4oHdk7il3UZQRu4aPt8KD2yv76kuItwpF3/vaoJvlBR+EFx+u2t0SvzwAMGP3bHM+2W8WgVKnBRFHipg==",
+      "path": "vl.core.commands/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.core.commands.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Core.Skia/2024.6.7-0181-gdf16f593e1": {
+    "VL.Core.Skia/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9WF1nkskiVmPIYtqEi4ddPKIjid6Nm+r8cSBT9W5ETP3OVUfdCBYNma7C3a83pqQ2hSV+nbtLiLdK18tGJV/ig==",
-      "path": "vl.core.skia/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.core.skia.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-yLBud0Ucdh5GYAK1dmChfxD/BzNIIKG7FF/a+tQfNcxwMlW37e//8SQQAoy0W3QaQW6xazsWmHyCNmP2t63LOg==",
+      "path": "vl.core.skia/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.core.skia.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Core.Skia.Windows/2024.6.7-0181-gdf16f593e1": {
+    "VL.Core.Skia.Windows/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-p6bCdH1zZyBnxltxlDXZPTqyPT+2Z/QoYLjrD0Yl9r7sDsC3plcsbD5rdoOLMsyCCSVS6io719Wk6WUqGl7OjA==",
-      "path": "vl.core.skia.windows/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.core.skia.windows.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-ZUoxrgeansYuErRNqL5KcMwY+yrqCBCKYsvZKfII5Dwhoy8aQIF6llwdzt8j0Dzs1ereoNaj9uQC1Pn2T/SOrA==",
+      "path": "vl.core.skia.windows/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.core.skia.windows.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.CoreLib/2024.6.7-0181-gdf16f593e1": {
+    "VL.CoreLib/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DECOHMEGnLCz0wh/dzJoZIHEsG7nw62iLAYJlycBkEssFRKCQ5l+Fy5AHehaheKVJojRTkj8mC11wi/3UcSrDQ==",
-      "path": "vl.corelib/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.corelib.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-j8bjX0twLuuwDVZoOFryN+JLVzdQ510xM48d38zNTvLDUYz9etBE9q2/yg0ZoY0xY3W6KgKjqkPFdCSo8e3f2w==",
+      "path": "vl.corelib/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.corelib.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.CoreLib.Windows/2024.6.7-0181-gdf16f593e1": {
+    "VL.CoreLib.Windows/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Lnsj3VB3W1o4+YUi/VJjHcQ9RcoNrn6AgE8xHq6XFHzz5p1Fwm/t4eEpS2+SExtcK7l0izPX540fbSta4uBtoQ==",
-      "path": "vl.corelib.windows/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.corelib.windows.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-M+Z0YLa7y32rIGqPC6LcF2jJwoCKQvF0Q8AakXdnox7l9nUYMc/uZ3VKw1NwWnExrpxuxLX7D0j8EtkXzBUg7Q==",
+      "path": "vl.corelib.windows/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.corelib.windows.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Serialization.Raw/2024.6.7-0181-gdf16f593e1": {
+    "VL.Serialization.Raw/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mxFNzcb6/h3IKvRzNOm95gAnMa1tlJhmYnoCguQ5TOXZSRvyBe1EnLNJb++GoctMMaPlb/IaHqP1uMc/GpbbzQ==",
-      "path": "vl.serialization.raw/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.serialization.raw.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-L+D81yCqDFXPWwH/Se0JrVy9Zv2KxPD9ufuxAljHrZ7rZnmVKuSnv+QDNoktI20fBqkJvr/MezDSlqSzCmBpgg==",
+      "path": "vl.serialization.raw/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.serialization.raw.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Skia/2024.6.7-0181-gdf16f593e1": {
+    "VL.Skia/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wnyO5vDU2LEiGLEAOPpjO3021Fiw7rCjZCe4LMXq0xJj5BgnIK5hXCkRiRGyIAJqibCeCyiWlymT8Goh1BU+5g==",
-      "path": "vl.skia/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.skia.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-HDX5Jp6Zw1OmEE6OOwm3XwR6xbMESzSs6IrDUJkkn9/XKv09T06vNmi/W89wHxS+5plRSjSDMdUGnrY4Fagr6w==",
+      "path": "vl.skia/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.skia.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Stride.Runtime/2024.6.7-0181-gdf16f593e1": {
+    "VL.Stride/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gWaJQ63ulR2f+eU0QvSGegUgHKrW4F/iRU+A2fXyUfMCavNV1p6OylINsy+8rfqF0YIjoSWBKDj52WVxioxKwQ==",
-      "path": "vl.stride.runtime/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.stride.runtime.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-tlvQ4aSPCHbcYmaHm+P0qSLPOw8KDwCl3iSwaPYSLeuAeQz3Oo2+/3tI7MY7Mx91DNN5QdpVfGgkPQkqVcAFVg==",
+      "path": "vl.stride/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.stride.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
-    "VL.Stride.Windows/2024.6.7-0181-gdf16f593e1": {
+    "VL.Stride.DefaultAssets/2024.6.7-0196-g6a855a4938": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hNZgF7KikhX2Zx8dyftceSVwYGQV2mZhOh3ZqBCkNRKMuY5+GVVCho2q/TN+WyYVn+ySUfczeop6ablN3odfZw==",
-      "path": "vl.stride.windows/2024.6.7-0181-gdf16f593e1",
-      "hashPath": "vl.stride.windows.2024.6.7-0181-gdf16f593e1.nupkg.sha512"
+      "sha512": "sha512-siLFGve9iVtXG0x4NTU58RFdJy4nRT9kcX7cpVtrDgVf90J39TmXJ0aYI90tcG8zWe2IY5FOmBw+XkTrQN5mTg==",
+      "path": "vl.stride.defaultassets/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.stride.defaultassets.2024.6.7-0196-g6a855a4938.nupkg.sha512"
+    },
+    "VL.Stride.Runtime/2024.6.7-0196-g6a855a4938": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cCNL7lyybjK6vPx6LpZa8eojusZQORebmnI2c5Uv82K9GQfZYVEnyqgTasf7W519GWlLH5jdJ7nft1eee9IQ9g==",
+      "path": "vl.stride.runtime/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.stride.runtime.2024.6.7-0196-g6a855a4938.nupkg.sha512"
+    },
+    "VL.Stride.Runtime.Nodes/2024.6.7-0196-g6a855a4938": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4DJM4Edb8HYTys72oLriqGnQfkJ1DK9RyZknLVYcMCkTHJX8FtTSYLXxrQ2JMypBTzp6/jiHPjUqk2os9MyUgg==",
+      "path": "vl.stride.runtime.nodes/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.stride.runtime.nodes.2024.6.7-0196-g6a855a4938.nupkg.sha512"
+    },
+    "VL.Stride.TextureFX/2024.6.7-0196-g6a855a4938": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cp8A9C44iY7q/r9Y53uV1ZTBRTj+Tw8mPr7yzVwUTWcnO3BgEamCWgePVQpKkFKNYgYgfpFQGsS9v1eWFmTtNA==",
+      "path": "vl.stride.texturefx/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.stride.texturefx.2024.6.7-0196-g6a855a4938.nupkg.sha512"
+    },
+    "VL.Stride.Windows/2024.6.7-0196-g6a855a4938": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EFsfeW6SDXXFSGKLxAyr9Txls4sX7h2Msk3b8JlAJuVRy0URGd/yjZwmx3E01f4RjHekerqqpfjI+0OjCatdRw==",
+      "path": "vl.stride.windows/2024.6.7-0196-g6a855a4938",
+      "hashPath": "vl.stride.windows.2024.6.7-0196-g6a855a4938.nupkg.sha512"
     },
     "Vortice.Mathematics/1.3.3": {
       "type": "package",
@@ -5131,6 +5230,16 @@
       "sha512": "sha512-xeria2eH1Vg4YY+c8D4ui+rqV3bc0c5qmcLf3Hqw5OWweP8p9y4xl64S+hN1SpnwFtsGCqtxIZtrCL3RzyUviQ==",
       "path": "vortice.vulkan/1.2.167",
       "hashPath": "vortice.vulkan.1.2.167.nupkg.sha512"
+    },
+    "VL.GameController.vl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameControllerInput/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "VL.App.WindowsForms/2024.6.0.0": {
       "type": "reference",
@@ -5172,12 +5281,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "VL.Stride/2024.6.0.0": {
+    "VL.Stride.Runtime.vl/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "VL.Stride.Runtime.vl/0.0.0.0": {
+    "VL.Stride.TextureFX.vl/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VL.Stride.vl/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -5208,16 +5322,6 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "VL.Stride.DefaultAssets/2024.6.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "VL.Stride.Runtime.Nodes/2024.6.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
