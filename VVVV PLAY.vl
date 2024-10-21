@@ -2169,7 +2169,6 @@
               <Pin Id="HhCtpWxHepGOn7i9wxdNmA" Name="Input" Kind="StateInputPin" />
               <Pin Id="ObuuYbfrSoTN7bsoOsuFAl" Name="Input 2" Kind="InputPin" />
               <Pin Id="GosvteW1TRlOmCS43XECeM" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="Se4DXzXhZXPLSedfjDxzxX" Name="Input 3" Kind="InputPin" />
             </Node>
             <Node Bounds="720,2528,27,19" Id="SmMAXnaqKpBOStlmiRcP3c">
               <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
@@ -2244,23 +2243,6 @@
               </p:NodeReference>
               <Pin Id="GD68xMpfSjzNArBS5GOCJo" Name="GameControllerManager" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2155,871,185,26" Id="PPEd0J6hm0nPpwFAgVPLXd">
-              <p:NodeReference LastCategoryFullName="GameController.GameController" LastDependency="VL.GameController.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="GetInfo" />
-              </p:NodeReference>
-              <Pin Id="RwYPuDDDi54O7Vqg3hqiNM" Name="Input" Kind="StateInputPin" />
-              <Pin Id="J359XMEoCvlNvQkjxfujRs" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="KzX2XGkYyISPqM89o4cKNf" Name="Device Name" Kind="OutputPin" />
-              <Pin Id="MZgzo1k3lRrPhm5KlIuZto" Name="Vendor ID" Kind="OutputPin" />
-              <Pin Id="EX5BfBFXrUPL1N58p4MmqE" Name="Product ID" Kind="OutputPin" />
-              <Pin Id="H7hqyYMdOkDLuJf22ixrpF" Name="ID" Kind="OutputPin" />
-              <Pin Id="HXocMNQgR0IL7fOIvqkdJ2" Name="GUID Stride" Kind="OutputPin" />
-              <Pin Id="IWT8x75oTkSOhFUFt3P4hZ" Name="SDL Name" Kind="OutputPin" />
-              <Pin Id="JDHXofpsq9HLFEoceNTKbP" Name="SDL Mapping" Kind="OutputPin" />
-              <Pin Id="OwzOCNtP2FILb31r1TzIxq" Name="SDL Mapping Found" Kind="OutputPin" />
-              <Pin Id="L4uW4yf6xbTOBXVRIulSA9" Name="Deadzone" Kind="OutputPin" />
-            </Node>
             <Node Bounds="2130,841,52,19" Id="L0QcSNBHEGSN3u7xG5Hgzp">
               <p:NodeReference LastCategoryFullName="Collections.Interfaces.IReadOnlyList" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2296,8 +2278,6 @@
             <Pad Id="H1QEcUUsly3MAuW2pRw7S2" SlotId="P7ypKmlBLSzOO4KDA0URnI" Bounds="2091,539" />
             <Pad Id="BuOL1IlS79TOhwsylLLB8T" SlotId="P7ypKmlBLSzOO4KDA0URnI" Bounds="2132,826" />
             <Pad Id="DhzsQqf5tLHLuA8qJRrsMd" SlotId="O24fKz2oA8DNFfj2LDcvyS" Bounds="2132,892" />
-            <Pad Id="Bg22K4RLHUiNmrrKhQvQzH" Comment="SDL Name" Bounds="2187,920,101,15" ShowValueBox="true" isIOBox="true" />
-            <Pad Id="Sc3WT3EYmV3O29Bnz3YN1E" Comment="Device Name" Bounds="2177,941,112,15" ShowValueBox="true" isIOBox="true" />
             <Node Bounds="2053,489,224,26" Id="NsGL75V5cJEPuTaUWHMEpU">
               <p:NodeReference LastCategoryFullName="GameController.GameControllerManager" LastDependency="VL.GameController.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2423,9 +2403,6 @@
               <Pin Id="HquLYJphosfPHReiZLkq2I" Name="Input 3" Kind="InputPin" />
               <Pin Id="TiOapm0oJr4Ldx0nj8LkP1" Name="Input 4" Kind="InputPin" />
             </Node>
-            <Pad Id="Ma6YXwJPnorOpJNPyQzEgU" Comment="" Bounds="1660,892,35,35" ShowValueBox="true" isIOBox="true" />
-            <Pad Id="OV4cktDsZbtLReQrK1mF5B" Comment="DP Up" Bounds="1906,722,35,35" ShowValueBox="true" isIOBox="true" />
-            <Pad Id="Em0jDzqE61pQS8KWY1mKtj" Comment="DP Down" Bounds="2026,703,35,35" ShowValueBox="true" isIOBox="true" />
             <Node Bounds="1268,952,56,19" Id="QRbT0E35elwOO70quuGRFx">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2528,7 +2505,6 @@
           <Link Id="LB9M7qPstSjMtdiAiGo8Dn" Ids="Cmmyglx2Z6cMZHbcHj8VX9,Og38vooYazCP3vjrclMTvK" />
           <Link Id="VjC4IShEtHzOfybLO3vGkT" Ids="C3uslAwjkKePxItGY6sQDL,BSAIDhErB0lLteLvCxP6KD" />
           <Link Id="TDPfi2xVrxdP2WO1YiFZQI" Ids="MHHo0OkV7a0ORU2jINB6EL,J2d0B0ledwNMpBqQASsdJP" />
-          <Link Id="S7qaK6tan7jNoeooZjmSLH" Ids="VeKQLh6K53dLkoU0hsSaxx,AfEG6OtK914OumDZN31PDg" />
           <Link Id="LU4HUdYwYlOQGISu3Qlasu" Ids="B36L0zCAiOhLANfyfEckxA,DlMgz811msYMRc9GgNcojO" />
           <Link Id="MS46xpIaZMtNJ4HjPMCtf5" Ids="GCN2q4tVbRaOFCLJY8ozOS,NyxjPsHk87AOiGswIhdCZx" />
           <Link Id="OpCbUt9Hx18PJdYSbTtSq4" Ids="CEk3Yb7WdTZMUb7GFCwHaw,UX88R6sBJajLkioZpweKr7" />
@@ -2557,7 +2533,6 @@
           <Link Id="S05hr8oiJMKLuM1Re9IRHO" Ids="DYTBwyEM2eTMJUfIPsdQAG,IlXgAX8wniPMKjCjFmYe0A" />
           <Link Id="INj3BzvDWPOPS70aSeP8Ln" Ids="EHsBgbhNISKNkVTLsrMp2U,HhCtpWxHepGOn7i9wxdNmA" />
           <Link Id="SrtabJhjcZ4PrC8U411WIE" Ids="GosvteW1TRlOmCS43XECeM,BIrf8p77WXsOuu3AeCQI2Y" />
-          <Link Id="T6PXGren2lwLC6FTOPXHyw" Ids="URUJ5xAmvQ7OiwMDAAsN72,ObuuYbfrSoTN7bsoOsuFAl" />
           <Link Id="Vzv4fu4VnT1LexwaleSxWf" Ids="VAhRk7Kd8e5OlrXzjAWONi,Q6hFSvca6BQLlyvem9Kf9h" />
           <Link Id="Pq5HkXSCFSgMKLfXE3tefk" Ids="D0iGPYVhxrZOiBhqt705sn,BOg9CNEmv6SMAL1rF1dYav" />
           <Link Id="KQZ3z6C0Z7WMi5Qqz3dbuM" Ids="HnmjWnpeU2dPIQoX6PqKaq,NA9DKLLtQRFNgXUyQfpzPa" />
@@ -2567,12 +2542,10 @@
           <Link Id="KrZRRLSnjOTL7TY12JW6TE" Ids="PBrYXl7LH0aM24bnwDEeJF,QQB3oJwVPu3NJ3aCEhPxem" />
           <Link Id="EZxZprQLbYJL4046ID8AM6" Ids="KQ4E4933XPxLpZorjygPKK,SAIQ0EIJlYqPnNzL2pNvPL" />
           <Link Id="B3hdeUusOdJM9nIoOAv0oy" Ids="PZo8VhX228HNnmlhS2PYKf,IWOElpZySkrLKDsh6gKPp8" />
-          <Link Id="MumOJ2lTrSGQW2IEazBV7S" Ids="UJ0GTnp4dt4PLy7OFq6x6O,Se4DXzXhZXPLSedfjDxzxX" />
           <Link Id="EbwEseH1k0aQdNWD1NBjJl" Ids="UzbApBIOA2BPvoh7NfNJbJ,DMrV3d40aSKLwmIOAZX7N0" />
           <Link Id="B8jXv7i8IAHM9mWtwQDToz" Ids="EY2X4ZrOb6wPH5LPv0EuCj,Fz33JDinp3RQJpYc5Y5u48" />
           <Link Id="CmAoP3kVdFeQGU7YCwECvJ" Ids="PZo8VhX228HNnmlhS2PYKf,NYhg78Am0OHMDBWuyYHe5t" />
           <Link Id="P1e1Zfj71A5P0HOH4P5kma" Ids="JpQKc9gDMT7NMCav9pooYy,NyeBhTZEA3oL7kZpPT1LSY" />
-          <Link Id="RuMVOioRcZWMGT0s2YKer0" Ids="TemFTmRbDGRPzepWLAJwqP,EFQFfnUfQmnMefxUP7WQa9" />
           <Link Id="TR3AxtaSd2VQR035TVheBJ" Ids="PBrYXl7LH0aM24bnwDEeJF,QmudEN9Dgl6N0ih615bAF2" />
           <Link Id="VCXOJXRiPjtPqluL3ocIi6" Ids="VAhRk7Kd8e5OlrXzjAWONi,RXGeMU6g0SDQUo0dZGysrd" />
           <Slot Id="EX5JF5R0yadPiqLd0Ozg5B" Name="GameControllerManager" />
@@ -2581,13 +2554,10 @@
           <Slot Id="GevAyVGIZDnOuVNZAbw5nd" Name="GameController Count" />
           <Slot Id="EBbjq7RJ55wNxlx3PBCqwC" Name="GameController1" />
           <Link Id="TZUHMXlVgCHOzCoVHRu0A6" Ids="T2Q8E9Zlz4fMfJIYMw20NN,VSMkI4zgK5oQUVN8tGMn8m" />
-          <Link Id="SbyiKgF3l4FN1AgUrlcV8i" Ids="IjERCPl7rc0Msm7bhzg28E,RwYPuDDDi54O7Vqg3hqiNM" />
           <Link Id="HqDQlq9ugaZOCSoBZmati7" Ids="VwG1jcIxeARPRtfo3npo9e,RhfcsyCC5CUQbpGiT4V7on" />
           <Link Id="Rz7WYHhmFE4NMCO8hMmsJV" Ids="GD68xMpfSjzNArBS5GOCJo,QbPEI2FJfjOO5ZNKnZ1ibi" />
           <Link Id="P8VB7VvDRjKP3qc8IOb7Oa" Ids="BuOL1IlS79TOhwsylLLB8T,Rt0tprji5HuOnncFIAjljv" />
           <Link Id="RxRB21xDlmuNPbOUcHL0hM" Ids="IjERCPl7rc0Msm7bhzg28E,DhzsQqf5tLHLuA8qJRrsMd" />
-          <Link Id="RyASlzzwVq0P0D3neuLF9w" Ids="IWT8x75oTkSOhFUFt3P4hZ,Bg22K4RLHUiNmrrKhQvQzH" />
-          <Link Id="GTnCjsvZNTMNU6o5xbMluQ" Ids="KzX2XGkYyISPqM89o4cKNf,Sc3WT3EYmV3O29Bnz3YN1E" />
           <Link Id="RwJGQNwo7BEMshxRzOb0XQ" Ids="GD68xMpfSjzNArBS5GOCJo,PnBE7d75pbMONKYEAu1ZDY" />
           <Link Id="BZrJxGTuAncL9phvuUBY5E" Ids="EnFi94VnjiqOg8WGzxk2dN,H1QEcUUsly3MAuW2pRw7S2" />
           <Link Id="FimDMbgbEcnNN0b03ZXYmy" Ids="MjpQ6CU0JyiLg4GxHgz9C1,CO2GxeqpCFyNgezxUPhyab" />
@@ -2603,15 +2573,15 @@
           <Link Id="FLYo6zKAsP6P1erZ4putjQ" Ids="T1eDzKuS0uKMOjlTwcRuPn,K4TTd8QRXl6MVRF7ep7WiJ" />
           <Link Id="NlHAKIRKjawOTktv2IhNvr" Ids="TdCn7Z6plJLP2lMJZYvpHq,HquLYJphosfPHReiZLkq2I" />
           <Link Id="RY07MmC37VgNLocAQeR2Gz" Ids="Nljm4jMAheeNn9LsOA7xxK,TiOapm0oJr4Ldx0nj8LkP1" />
-          <Link Id="VQgoAMxUkoQQK8cPpjKLV7" Ids="KxoqbzlNdjXNRY8FHUxyYW,Ma6YXwJPnorOpJNPyQzEgU" />
-          <Link Id="GP7Dx4xbvrtNtBX4e2C09A" Ids="DZLc5DYfpA8MyP5izM9MZ9,OV4cktDsZbtLReQrK1mF5B" />
-          <Link Id="LgCZPwnxtafNxZKH1X3zGD" Ids="Lu1Dgtj38YzNMRqB6W7EYG,Em0jDzqE61pQS8KWY1mKtj" />
           <Link Id="SIf1OnCVrMiPhLPeXzLf09" Ids="DZLc5DYfpA8MyP5izM9MZ9,KjlVOl0eQmpL4Fh8zom32W" />
           <Link Id="KWThC8r0byuMTIeCjO8FAS" Ids="Lu1Dgtj38YzNMRqB6W7EYG,MnNJs6HvRkYOr7VmVhT4Xb" />
           <Link Id="AimbZVDmjTGLrzfsPexyz0" Ids="AMUyAHMKwxgPaTurmkSkKx,IbFHB2l4k6aNWq6VfjJ42a" />
           <Link Id="RZbZR2pt3FNOeWlJy2eGk0" Ids="K66JKw5F02BLXWNGDfIJup,L6dUmYcA2JGLymZbhO0RfN" />
           <Link Id="PlAIFnucEYNN2ppc08DjSQ" Ids="KxoqbzlNdjXNRY8FHUxyYW,DqZF9NPiKuBPT0R5giM9Dv" />
           <Link Id="RtIwF4MBc1EOPCFg3lyo1h" Ids="HtkIj1rOJLfQAJpIEpxRJx,TifYAY2dPCaPpZW7jcYKff" />
+          <Link Id="DR49l0kRHyYOwAdw4KhKud" Ids="CZAzGSlmrLRNz290UTixbY,EFQFfnUfQmnMefxUP7WQa9" />
+          <Link Id="C83ZBC8BsFoPkqN4StzHoS" Ids="MHHo0OkV7a0ORU2jINB6EL,AfEG6OtK914OumDZN31PDg" />
+          <Link Id="UOtLfOqtCKcN9SRjcRJJO1" Ids="URUJ5xAmvQ7OiwMDAAsN72,ObuuYbfrSoTN7bsoOsuFAl" />
         </Patch>
       </Node>
       <!--
